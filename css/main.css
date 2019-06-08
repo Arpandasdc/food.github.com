@@ -1,0 +1,623 @@
+
+@font-face
+{
+    font-family: rock;
+    src: url(../font/ROCK.woff);
+}
+@font-face
+{
+    font-family: rockb;
+    src: url(../font/ROCKB.woff);
+}
+@font-face
+{
+    font-family: alt;
+    src: url(../font/seo.woff)
+}
+
+
+
+@font-face
+{
+    font-family: rbo;
+    src: url(../font/seo.woff)
+}
+
+.nopad
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.ban
+{
+    position: relative;
+    
+    
+}
+.hrd
+{
+    position: absolute;
+    z-index: 200;
+    top: 178px;
+    
+}
+
+
+a ,a:hover
+{
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    font-size: 16px;
+    font-family: alt;
+
+}
+ul { list-style: none;}
+
+.nav
+{
+    padding-top: 35px;
+}
+
+.logo
+{
+    padding-top: 10px;
+
+    margin-bottom: 10px;
+}
+
+.disk
+{
+  display: block;
+}
+.mob
+{
+   display: none;
+   
+}
+/*----------------ban text------------------*/
+
+
+
+
+span
+{
+    font-size: 55px;
+    color: #ffffff;
+    padding-top: 0px;
+    font-family: rock;
+    
+}
+
+.restext
+{
+    color: #ffffff;
+    font-family: rbo;
+    font-size: 20px;
+    margin-top: 116px;
+}
+.sine
+{
+    color: #ffffff;
+    font-family: rbo;
+    font-size: 18px;
+
+}
+
+a.bt
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #F9AD32;
+    border: 2px solid rgb(255, 255, 255);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius: 50px;
+    font-family: rbo;
+}
+a.bt:hover
+{
+    text-decoration: none;
+    color: #F9AD32;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #F9AD32;
+    translate: 2se;
+
+}
+
+.gg
+{
+    margin-top: 8px;
+}
+
+/*--------------about-------------------*/
+.gap { margin-top: 202px; }
+
+.ptext
+{
+    font-size: 65px;
+    color: #000000;
+    margin-top: 225px;
+    font-family: rockb;
+}
+
+.abtext
+{
+    font-size: 16px;
+    color: rgb(90, 90, 90);
+    font-family: rbo;
+    margin-top: 55px;
+    font-weight: normal;
+
+}
+
+/*--------------manu-------------------*/
+
+.manu
+{
+    font-size: 65px;
+    color: black;
+    font-family: rockb;
+    margin-top: 130px;
+    margin-bottom: 80px;
+}
+.manugap
+{
+    margin-top: 35px;
+}
+
+.mtext
+{
+    font-family: rbo;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mtext2
+{
+    font-family: rbo;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: normal;
+}
+/*----------book----------*/
+.re
+{
+    font-size: 55px;
+    color: #ffffff;
+    padding-top: 186px;
+    font-family: rbo;
+    padding-left: 146px;
+}
+
+.abtext
+{
+    font-size: 18px;
+    color: rgb(73, 73, 73);
+    font-family: rbo;
+    margin-top: 55px;
+
+}
+
+.bookpad
+
+{
+    margin-top: 105px;
+}
+
+/*----------test----------*/
+
+.test
+{
+    margin-top: 100px;
+    font-size: 65px;
+    color:  black;
+    margin-bottom: 70px;
+    font-family: rockb;
+}
+
+
+/*--------------ftr-------------------*/
+
+.ftr
+{
+    background-color: rgb(26, 26, 26);
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.kk > a
+{
+    color: #ffffff;
+    font-family: rbo;
+    font-size: 14px;
+}
+
+.icon > i
+{
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.yy
+{
+    text-align: right;
+}
+
+.icon{
+    text-align: right;
+}
+
+.copy
+{
+    color: #ffffff;
+    font-family: alt;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px)
+{
+ .desk
+ {
+     display: block;
+ }
+ .disk1
+ {
+    display: block;
+}
+.disknav
+{
+ display: none;
+}
+
+.mob{
+ display: none;
+}
+.logo
+{
+    padding-top: 10px;
+
+    margin-bottom: 10px;
+}
+
+.hrd
+{
+    position: absolute;
+    z-index: 200;
+    top: 71px;
+    
+}
+
+.nav
+{
+    padding-top: 20px;
+}
+
+/*----------------ban text------------------*/
+
+.nn
+{
+ margin-top: 30px;
+}
+
+span
+{
+    font-size: 35px;
+    color: #ffffff;
+    padding-top: 0px;
+    font-family: rock;
+    
+}
+
+.restext
+{
+    color: #ffffff;
+    font-family: rbo;
+    font-size: 16px;
+    margin-top: 40px;
+    
+}
+.sine
+{
+    color: #ffffff;
+    font-family: rbo;
+    font-size: 16px;
+
+}
+
+a.bt
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #F9AD32;
+    border: 2px solid #F9AD32;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius: 50px;
+    font-family: rbo;
+
+}
+a.bt:hover
+{
+    text-decoration: none;
+    color: #F9AD32;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #F9AD32;
+    translate: 2se;
+
+}
+
+.gg
+{
+    margin-top: 55px;
+}
+
+/*--------------about-------------------*/
+.gap { margin-top: 223px; }
+
+.ptext
+{
+    font-size: 50px;
+    color: #000000;
+    margin-top: 149px;
+    font-family: rockb;
+}
+
+.abtext
+{
+    font-size: 16px;
+    color: rgb(73, 73, 73);
+    font-family: rbo;
+    margin-top: 27px;
+
+}
+
+/*--------------manu-------------------*/
+
+.manu
+{
+    font-size: 50px;
+    color: black;
+    font-family: rockb;
+    margin-top: 76px;
+    margin-bottom: 45px;
+}
+.manugap
+{
+    margin-top: 35px;
+}
+
+.mtext
+{
+    font-family: rbo;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mtext2
+{
+    font-family: rbo;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+/*-------------book-------------------*/
+.re
+{
+    font-size: 45px;
+    color: #ffffff;
+    padding-top: 205px;
+    font-family: alt;
+    padding-left: 30px;
+}
+
+/*----------test----------*/
+
+.test
+{
+    margin-top: 45px;
+    font-size: 50px;
+    color:  black;
+    margin-bottom: 45px;
+    font-family: rockb;
+}
+
+
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px)
+{
+  .disk
+  {
+      display: none;
+  }
+
+  .disk1
+  {
+    display: none;
+}
+
+.mob
+{
+  display: block;
+}
+
+.hrd
+{
+    position: absolute;
+    z-index: 200;
+    top: 47px;
+    
+}
+
+/*----------------ban text------------------*/
+.logo
+{
+  padding-top: 10px;
+  
+  margin-bottom: 10px;
+}
+
+.nn
+{
+    margin-top: 30px;
+
+}
+
+span
+{
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 0px;
+    font-family: rock;
+    
+}
+
+
+.restext
+{
+    color: #ffffff;
+    font-family: rbo;
+    font-size: 16px;
+    margin-top: 15px;
+    
+}
+.sine
+{
+    color: #ffffff;
+    font-family: rbo;
+    font-size: 16px;
+
+}
+
+a.bt
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #F9AD32;
+    border: 2px solid #F9AD32;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 50px;
+    font-family: rbo;
+
+}
+a.bt:hover
+{
+    text-decoration: none;
+    color: #F9AD32;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #F9AD32;
+    translate: 2se;
+
+}
+
+.gg
+{
+    margin-top: 28px;
+    
+}
+
+/*--------------about-------------------*/
+.gap { margin-top: 58px; margin-left: 25%; }
+
+.ptext
+{
+    font-size: 35px;
+    color: #000000;
+    margin-top: 30px;
+    font-family: rockb;
+    text-align: center;
+}
+
+.abtext
+{
+    font-size: 16px;
+    color: rgb(73, 73, 73);
+    font-family: rbo;
+    margin-top: 55px;
+
+}
+
+/*--------------manu-------------------*/
+
+.manu
+{
+    font-size: 35px;
+    color: black;
+    font-family: rockb;
+    margin-top: 66px;
+    margin-bottom: 37px;
+}
+.manugap
+{
+    margin-top: 35px;
+}
+
+.mtext
+{
+    font-family: rbo;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mtext2
+{
+    font-family: rbo;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/*------------------------*/
+.re
+{
+    font-size: 35px;
+    color: #ffffff;
+    padding-top: 20px;
+    font-family: rbo;
+    padding-left: 0px;
+    
+}
+
+.reol
+{
+    text-align: center;
+}
+
+/*----------test----------*/
+
+.test
+{
+    margin-top: 66px;
+    font-size: 35px;
+    color:  black;
+    margin-bottom: 37px;
+    font-family: rockb;
+}
+
+/*---------footer-------------*/
+
+.foottext
+{
+    text-align: center;
+}
+
+.yy
+{
+    text-align: center;
+    margin-top: 15px;
+}
+
+}

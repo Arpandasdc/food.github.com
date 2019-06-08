@@ -1,0 +1,406 @@
+
+@font-face
+{
+	font-family: rock;
+	src: url(../font/ROCK.woff);
+}
+@font-face
+{
+	font-family: rockb;
+	src: url(../font/ROCKB.woff);
+}
+@font-face
+{
+	font-family: alt;
+	src: url(../font/altr.woff)
+}
+@font-face
+{
+	font-family: rbo;
+	src: url(../font/Roboto-Regular.woff)
+}
+
+.for
+{
+	margin-top: 20px;
+	background-image: url('../img/hh.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 620px;
+}
+
+.book
+{
+	font-size: 50px;
+	color: #FFFFFF;
+	padding-top: 116px;
+	font-family: alt;
+}
+
+.book2
+{
+	font-size: 35px;
+	color: #FFFFFF;
+	padding-top: 15px;
+	font-family: lfont;
+	
+}
+.book3
+{
+	border-bottom: 5px solid #F18E43;
+	font-size: 12px;
+}
+
+.bk
+{
+	font-size:36px;
+	
+	color: #040529;
+	font-family: alt;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:15px;
+	
+	
+	
+	
+}
+
+.con
+{
+	padding-bottom: 5px;
+	margin-top: 115px;
+	margin-bottom: 0px;
+	box-sizing: border-box;
+	background-color: #F9F9F9; 
+	border-radius: 10px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	-moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	-ms-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	-o-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	transition:1.5s;
+}
+.con:hover
+{
+	padding-bottom: 5px;
+	margin-top: 115px;
+	margin-bottom: 0px;
+	box-sizing: border-box;
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-moz-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-ms-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-o-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	transition:1s;
+	
+}
+
+.con input
+{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 16px;
+}
+.con textarea 
+{
+	height: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 40px;
+	
+}
+
+.con input 
+{
+	outline: none;
+	border-radius: 10px;
+	border: #040529 1px solid;
+	box-sizing: border-box;
+	
+}
+.con input[type="submit"]
+{
+	
+	cursor: pointer;
+	background-color: #F9AD32;
+	color: #FFFFFF ;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	border: 2px #F9AD32 solid;
+	
+	font-family: alt;
+	font-size: 16px;
+}
+.con input[type="submit"]:hover
+{
+	
+	cursor: pointer;
+	background: #FFFFFF;
+	color: #F9AD32 ;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	border: 1px #F9AD32 solid;
+	
+	font-family: alt;
+	font-size: 16px;
+}
+
+.con form p
+{
+	position: relative;
+}
+.con form p label
+{
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	transition: .5s;
+	pointer-events: none;
+	color: #999;
+	font-size: 16px;
+	font-family: hfont;
+	font-weight: normal;
+
+}
+.con p input:focus ~ label,
+.con p input:valid ~ label,
+.con input:valid ~ label,
+.con textarea:valid ~ label 
+
+
+{
+	top:-10px;
+	left: 18px;
+	color: #040529;
+	font-size: 12px;
+	background: rgba(255,255,255,1.00);
+	font-weight: bold;
+	
+}
+
+.con p input:focus,
+.con p input:valid,
+.con input:valid,
+.con textarea:valid 
+{
+	border: 1px  #F9AD32 solid;
+	
+}
+select
+{
+	background: none;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 30px;
+	outline: none;
+	border-radius: 10px;
+	border: #040529 1px solid;
+	box-sizing: border-box;
+	color:  #999;
+
+}
+select:hover
+{
+	background: none;
+}
+option
+{
+	color:#040529;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px)
+{
+
+	.for
+	{
+		margin-top: 20px;
+		background-image: url('../img/hh2.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 620px;
+	}
+
+	.book
+	{
+		font-size: 50px;
+		color: #FFFFFF;
+		padding-top: 116px;
+		font-family: alt;
+	}
+
+	.book2
+	{
+		font-size: 35px;
+		color: #FFFFFF;
+		padding-top: 15px;
+		font-family: lfont;
+		
+	}
+	.book3
+	{
+		border-bottom: 5px solid #F18E43;
+		font-size: 12px;
+	}
+
+	.bk
+	{
+		font-size:36px;
+		
+		color: #040529;
+		font-family: alt;
+		text-align:center;
+		padding-top:30px;
+		padding-bottom:15px;
+		
+		
+		
+		
+	}
+
+	.con
+	{
+		padding-bottom: 5px;
+		margin-left: 10%;
+		margin-top: 15px;
+		margin-bottom: 0px;
+		box-sizing: border-box;
+		background-color: #F9F9F9; 
+		border-radius: 10px;
+		box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+		-moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+		-ms-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+		-o-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+		-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+		transition:1.5s;
+	}
+	.con:hover
+	{
+		padding-bottom: 5px;
+		margin-top: 15px;
+		margin-bottom: 0px;
+		box-sizing: border-box;
+		box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+		-moz-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+		-ms-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+		-o-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+		-webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+		transition:1s;
+		
+	}
+
+	.con input
+	{
+		padding-bottom: 10px;
+		padding-top: 10px;
+		margin-bottom: 16px;
+	}
+	.con textarea 
+	{
+		height: 80px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-bottom: 40px;
+		
+	}
+
+	.con input 
+	{
+		outline: none;
+		border-radius: 10px;
+		border: #040529 1px solid;
+		box-sizing: border-box;
+		
+	}
+	.con input[type="submit"]
+	{
+		
+		cursor: pointer;
+		background-color: #F9AD32;
+		color: #FFFFFF ;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+		border: 2px #F9AD32 solid;
+		
+		font-family: alt;
+		font-size: 16px;
+	}
+	.con input[type="submit"]:hover
+	{
+		
+		cursor: pointer;
+		background: #FFFFFF;
+		color: #F9AD32 ;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+		border: 1px #F9AD32 solid;
+		
+		font-family: alt;
+		font-size: 16px;
+	}
+
+	.con form p
+	{
+		position: relative;
+	}
+	.con form p label
+	{
+		position: absolute;
+		top: 10px;
+		left: 15px;
+		transition: .5s;
+		pointer-events: none;
+		color: #999;
+		font-size: 16px;
+		font-family: hfont;
+		font-weight: normal;
+
+	}
+	.con p input:focus ~ label,
+	.con p input:valid ~ label,
+	.con input:valid ~ label,
+	.con textarea:valid ~ label 
+
+
+	{
+		top:-10px;
+		left: 18px;
+		color: #040529;
+		font-size: 12px;
+		background: rgba(255,255,255,1.00);
+		font-weight: bold;
+		
+	}
+
+	.con p input:focus,
+	.con p input:valid,
+	.con input:valid,
+	.con textarea:valid 
+	{
+		border: 1px  #F9AD32 solid;
+		
+	}
+	select
+	{
+		background: none;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		margin-bottom: 30px;
+		outline: none;
+		border-radius: 10px;
+		border: #040529 1px solid;
+		box-sizing: border-box;
+		color:  #999;
+
+	}
+	select:hover
+	{
+		background: none;
+	}
+	option
+	{
+		color:#040529;
+	}
+
+}
